@@ -33,7 +33,4 @@ ScheduledExecutorService scheduledWithFactory = Executors.newScheduledThreadPool
 public interface ThreadFactory {
 	Thread newThread(Runnable r);
 }
-```adFactory {
-	Thread newThread(Runnable r);
-}
 ```
